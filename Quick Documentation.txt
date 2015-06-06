@@ -1,0 +1,24 @@
+Copied from RADprinter2.py
+# Created By: ASIS&T@UBC
+# Title: RAD Device 2 Button
+# Description: Prints random book recommendations from CSVs with two buttons.
+#   In our diagram, GPIO 23 maps to booklist1. GPIO 17 maps to booklist2. If
+#   only one booklist CSV exists, both buttons will use the sole booklist.
+#   The purpose was to offer child friendly content AND more mature content.
+#   See the original RAD Device documentation for additional set up info.
+# Created: 2014
+# Updated: 2015-04-21
+
+
+We modified from the RAD Device code. Thus, your setup will generally be the same. After you get RAD Device working, you'll replace RADprinter.py with RADprinter2.py. Put your booklists on your RPi. We've provided example booklists with the "|" (pipe) delimiters for your review.
+
+Update RADprinter2.py with your actual file paths.
+    #FILE PATH SHOULD REFLECT ACTUAL FILE DIRECTORY
+    docpath1 = '/git/RAD-device/booklist1.csv'
+    docpath2 = '/git/RAD-device/booklist2.csv'
+	
+You'll also need to wire in another button. We used GPIO 17. See RAD2breadboard.jpg if you need some help.
+
+We're primarily librarians so we begged engineers to help us lasercut a case.
+
+Have fun. Contact us at asist.ubc@gmail.com.
