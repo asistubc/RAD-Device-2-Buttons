@@ -7,10 +7,10 @@ Copied from RADprinter2.py
 #   The purpose was to offer child friendly content AND more mature content.
 #   See the original RAD Device documentation for additional set up info.
 # Created: 2014
-# Updated: 2015-04-21
+# Updated: 2016-09-21
 
 
-We modified from the RAD Device code. Thus, your setup will generally be the same. After you get RAD Device working, you'll replace RADprinter.py with RADprinter2.py. Put your booklists on your RPi. We've provided example booklists with the "|" (pipe) delimiters for your review.
+We modified from the RAD Device code. Thus, your setup will generally be the same. After you get RAD Device working, you'll replace RADprinter.py with RADprinter2.py. Put your booklists on your RPi. We've provided example booklists with the "|" (pipe) delimiters for your review. If you like, you can also use the helper script "get_booklist.py" to generate a RAD-compatible booklist from the contents of a Goodreads Shelf.
 
 Update RADprinter2.py with your actual file paths.
     #FILE PATH SHOULD REFLECT ACTUAL FILE DIRECTORY
